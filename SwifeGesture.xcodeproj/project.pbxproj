@@ -13,6 +13,14 @@
 		AD49BF512699799C005DAB7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF4F2699799C005DAB7E /* Main.storyboard */; };
 		AD49BF532699799C005DAB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF522699799C005DAB7E /* Assets.xcassets */; };
 		AD49BF562699799C005DAB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF542699799C005DAB7E /* LaunchScreen.storyboard */; };
+		AD49BF6626997A8E005DAB7E /* arrow-down-red.png in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF5E26997A8E005DAB7E /* arrow-down-red.png */; };
+		AD49BF6726997A8E005DAB7E /* arrow-left-black.png in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF5F26997A8E005DAB7E /* arrow-left-black.png */; };
+		AD49BF6826997A8E005DAB7E /* arrow-up-black.png in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF6026997A8E005DAB7E /* arrow-up-black.png */; };
+		AD49BF6926997A8E005DAB7E /* arrow-left-red.png in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF6126997A8E005DAB7E /* arrow-left-red.png */; };
+		AD49BF6A26997A8E005DAB7E /* arrow-right-red.png in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF6226997A8E005DAB7E /* arrow-right-red.png */; };
+		AD49BF6B26997A8E005DAB7E /* arrow-right-black.png in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF6326997A8E005DAB7E /* arrow-right-black.png */; };
+		AD49BF6C26997A8E005DAB7E /* arrow-up-red.png in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF6426997A8E005DAB7E /* arrow-up-red.png */; };
+		AD49BF6D26997A8E005DAB7E /* arrow-down-black.png in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF6526997A8E005DAB7E /* arrow-down-black.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		AD49BF522699799C005DAB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD49BF552699799C005DAB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD49BF572699799C005DAB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD49BF5E26997A8E005DAB7E /* arrow-down-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down-red.png"; sourceTree = "<group>"; };
+		AD49BF5F26997A8E005DAB7E /* arrow-left-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left-black.png"; sourceTree = "<group>"; };
+		AD49BF6026997A8E005DAB7E /* arrow-up-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up-black.png"; sourceTree = "<group>"; };
+		AD49BF6126997A8E005DAB7E /* arrow-left-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left-red.png"; sourceTree = "<group>"; };
+		AD49BF6226997A8E005DAB7E /* arrow-right-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right-red.png"; sourceTree = "<group>"; };
+		AD49BF6326997A8E005DAB7E /* arrow-right-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right-black.png"; sourceTree = "<group>"; };
+		AD49BF6426997A8E005DAB7E /* arrow-up-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up-red.png"; sourceTree = "<group>"; };
+		AD49BF6526997A8E005DAB7E /* arrow-down-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down-black.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 		AD49BF482699799C005DAB7E /* SwifeGesture */ = {
 			isa = PBXGroup;
 			children = (
+				AD49BF5D26997A7C005DAB7E /* images */,
 				AD49BF492699799C005DAB7E /* AppDelegate.swift */,
 				AD49BF4B2699799C005DAB7E /* SceneDelegate.swift */,
 				AD49BF4D2699799C005DAB7E /* ViewController.swift */,
@@ -65,6 +82,21 @@
 				AD49BF572699799C005DAB7E /* Info.plist */,
 			);
 			path = SwifeGesture;
+			sourceTree = "<group>";
+		};
+		AD49BF5D26997A7C005DAB7E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AD49BF6526997A8E005DAB7E /* arrow-down-black.png */,
+				AD49BF5E26997A8E005DAB7E /* arrow-down-red.png */,
+				AD49BF5F26997A8E005DAB7E /* arrow-left-black.png */,
+				AD49BF6126997A8E005DAB7E /* arrow-left-red.png */,
+				AD49BF6326997A8E005DAB7E /* arrow-right-black.png */,
+				AD49BF6226997A8E005DAB7E /* arrow-right-red.png */,
+				AD49BF6026997A8E005DAB7E /* arrow-up-black.png */,
+				AD49BF6426997A8E005DAB7E /* arrow-up-red.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +156,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD49BF6C26997A8E005DAB7E /* arrow-up-red.png in Resources */,
 				AD49BF562699799C005DAB7E /* LaunchScreen.storyboard in Resources */,
+				AD49BF6B26997A8E005DAB7E /* arrow-right-black.png in Resources */,
+				AD49BF6626997A8E005DAB7E /* arrow-down-red.png in Resources */,
+				AD49BF6926997A8E005DAB7E /* arrow-left-red.png in Resources */,
+				AD49BF6826997A8E005DAB7E /* arrow-up-black.png in Resources */,
+				AD49BF6D26997A8E005DAB7E /* arrow-down-black.png in Resources */,
+				AD49BF6A26997A8E005DAB7E /* arrow-right-red.png in Resources */,
+				AD49BF6726997A8E005DAB7E /* arrow-left-black.png in Resources */,
 				AD49BF532699799C005DAB7E /* Assets.xcassets in Resources */,
 				AD49BF512699799C005DAB7E /* Main.storyboard in Resources */,
 			);
