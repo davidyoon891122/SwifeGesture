@@ -59,6 +59,12 @@
                             <constraint firstItem="OfV-FK-KUK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="CrO-JS-Jsw"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imgViewDown" destination="zRN-ZS-f0d" id="ysb-S4-XV3"/>
+                        <outlet property="imgViewLeft" destination="q7U-NA-Ivb" id="3qd-wO-pFn"/>
+                        <outlet property="imgViewRight" destination="K3u-F0-zgf" id="zTE-ud-IRx"/>
+                        <outlet property="imgViewup" destination="6gN-9n-aqL" id="4Bp-xs-nxK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
